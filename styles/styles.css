@@ -17,9 +17,38 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 32px;
+}
+
 main {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  background: yellow;
+
+  justify-content: space-evenly;
+}
+
+.logo {
+  display: flex;
+  margin-bottom: 66px;
+}
+
+.login-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 480px;
+}
+
+h1 {
+  color: #e1e1e6;
+  margin-bottom: 24px;
+  font-size: 54px;
+  line-height: 64px;
 }
