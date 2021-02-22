@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+
+  background: #121214;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: yellow;
+}
