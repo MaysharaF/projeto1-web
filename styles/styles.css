@@ -1,3 +1,8 @@
+:root {
+  --background-color: #121214;
+  --primary-purple: #8257e6;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +14,7 @@ body {
   align-items: center;
   min-height: 100vh;
 
-  background: #121214;
+  background: var(--background-color);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -85,7 +90,7 @@ form {
 .fa,
 .fas {
   position: absolute;
-  color: rgb(40, 39, 44);
+  color: #28272c;
   transition: fill 0.2s ease 0s;
   margin-left: 12px;
 }
@@ -95,9 +100,20 @@ form {
   width: 100%;
   height: 50px;
   font-size: 16px;
-  background: rgb(18, 18, 20);
+  background: var(--background-color);
   border: none;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   padding: 0px 1em 0px 2.65em;
   border-radius: 5px;
+}
+
+.forgot-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-purple);
+  margin: 8px 0px 24px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease 0s;
+  align-self: flex-start;
+  text-decoration: none;
 }
