@@ -1,6 +1,7 @@
 :root {
   --background-color: #121214;
   --primary-purple: #8257e6;
+  --primary-white: #ffffff;
 }
 
 * {
@@ -102,7 +103,7 @@ form {
   font-size: 16px;
   background: var(--background-color);
   border: none;
-  color: #ffffff;
+  color: var(--primary-white);
   padding: 0px 1em 0px 2.65em;
   border-radius: 5px;
 }
@@ -116,4 +117,21 @@ form {
   transition: opacity 0.2s ease 0s;
   align-self: flex-start;
   text-decoration: none;
+}
+
+.submit-button {
+  background: var(--primary-purple);
+  border-radius: 5px;
+  border: none;
+  color: var(--primary-white);
+  font-weight: bold;
+  height: 50px;
+  transition: background 0.2s ease 0s, color 0.2s ease 0s;
+  font-family: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: #977ef2;
 }
