@@ -39,6 +39,12 @@ main {
   justify-content: center;
 }
 
+@media (max-width: 375px) {
+  main {
+    flex-direction: column;
+  }
+}
+
 .login-info {
   display: flex;
   flex-direction: column;
@@ -60,6 +66,13 @@ h1 {
   line-height: 64px;
 }
 
+@media (min-width: 375px) {
+  h1 {
+    font-size: 30px;
+    margin-right: 0px;
+  }
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -75,6 +88,12 @@ form {
   background: #202024;
   border-radius: 5px;
   padding: 64px;
+}
+
+@media (min-width: 375px) {
+  .form-login {
+    padding: 32px;
+  }
 }
 
 .form-input {
