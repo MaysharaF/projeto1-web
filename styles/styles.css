@@ -66,7 +66,7 @@ h1 {
   line-height: 64px;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   h1 {
     font-size: 30px;
     margin-right: 0px;
@@ -90,7 +90,7 @@ form {
   padding: 64px;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   .form-login {
     padding: 32px;
   }
@@ -126,6 +126,12 @@ form {
   margin-left: 320px;
   transition: opacity 0.2s ease 0s;
   cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .eye-password {
+    margin-left: 215px;
+  }
 }
 
 .eye-password svg {
