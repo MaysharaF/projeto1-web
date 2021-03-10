@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -116,7 +117,6 @@ form {
   opacity: 0.8;
   transition: opacity 0.2s ease 0s;
   align-self: flex-start;
-  text-decoration: none;
 }
 
 .submit-button {
@@ -134,4 +134,21 @@ form {
 
 .submit-button:hover {
   background: #977ef2;
+}
+
+.singup {
+  font-size: 14px;
+  margin-top: 24px;
+  color: #cccccc;
+  text-align: center;
+}
+
+.singup-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-purple);
+  margin: 8px 0px 24px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease 0s;
+  align-self: flex-start;
 }
